@@ -92,6 +92,12 @@ async fn main() {
     }
 }
 
-// Port-Sniffer-CLI.exe -h    // help
-// Port-Sniffer-CLI.exe -j 100 192.168.1.1  // will allow user how many threads they want this process to use
-// Port-Sniffer-CLI.exe 192.168.1.1   // calling the tool and then buying it on an IP address and this will use the set number of default threads
+
+// The main function that runs the program.
+// It collects the arguments and then runs the scan function.
+// It also handles the errors and prints them out.
+// It also handles the case where the user does not provide any arguments and prints out the help message.
+// It also handles the case where the user provides invalid arguments and prints out the help message.
+// It also handles the case where the user provides valid arguments and runs the scan function.
+
+// use `cargo run` to run the program.
